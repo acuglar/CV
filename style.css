@@ -27,8 +27,7 @@ body, html {
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
-	margin-bottom: 15px;
+	margin: 0 30px 30px 30px;
 }
 
 #headshot img {
@@ -47,6 +46,10 @@ body, html {
 #name h1 {
 	margin-bottom: -20px;
 	margin-top: 2vh;
+}
+
+#name h2 {
+	font-weight: lighter;
 }
 
 #contactDetails ul {
@@ -73,10 +76,10 @@ section {
 	color: #cf8a05;
 }
 
-.sectionTitle h1{
+.sectionTitle h1 {
 	font-weight: lighter;
 	font-style: italic;
-	font-size: 26px;
+	font-size: 22px;
 }
 
 .sectionContent {
@@ -84,12 +87,20 @@ section {
 	width: 72.5%;
 }
 
+.sectionContent h2 {
+	font-weight: lighter;
+}
+
 .keySkills{
+	text-align: left;
 	list-style-type: none;
 	column-count: 3;
+	padding: 0;
 }
 
 .subDetails {
 	margin-top: -20px;
 	margin-bottom: -10px;
+	font-style: italic;
+	font-size: 0.8em;
 }
